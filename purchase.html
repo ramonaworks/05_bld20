@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Drupal Beginner Tutorials </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <link href="css/rwcustom.css"        rel="stylesheet">
+  
+ 
+  </head>
+<body class="body-portfolio-skill">
+<div id="rwnav"></div>
+<!--Content-->
+<h5 class="px-4 ">The best course you will ever buy or your money back!</h5>
+
+<div class="container-fluid">
+        <div class="jumbotron">
+          <div class="row bld-vertical-align">
+            <div class="col-xs-4">
+              <a href="https://gum.co/zXjIO" title=""><img src="/images/videocards/BASIC_DRUPAL_VIDEOS.jpg" class="img-responsive"></a>
+            </div>
+          <div class="col-xs-4">
+                <a href="https://gum.co/ZYIeD" title=""><img src="/images/videocards/ADVANCED_DRUPAL_VIDEOS.jpg" class="img-responsive"></a>
+          </div>
+          <div class="col-xs-4">
+                <a href="https://gum.co/RCfEh?wanted=true" title=""><img src="/images/videocards/DRUPAL8VIDEOS.jpg" class="img-responsive"></a>
+          </div>    
+        </div>
+      </div>
+      </div>
+
+<div class="jumbotron">
+    Here's what you will get:
+    <ul>
+            <li>Step by Step learning guide, even if you don't know how to code.</li>
+            <li>Get your site up and running in no time.</li>
+            <li>30 day money back guarantee.</li>
+        
+    </ul>
+</div>
+        
+ <!--Footer-->
+<div id="rwfooter"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+    <script>
+      $(function(){
+        $("#rwnav").load("nav.html");
+        $("#rwfooter").load("footer.html"); 
+      
+        $(document).ready(function(){
+        // Adds minus icon for collapse element which is open by default
+        $(".collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        });
+        
+        // Toggles plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        });
+    });
+      });
+      </script>
+  </body>
+</html>
