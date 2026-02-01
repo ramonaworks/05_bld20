@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EMG2GNY3LE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EMG2GNY3LE');
+</script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramona Dsouza | Contact for Enterprise UX & Systems</title>
+  <meta name="description" content="Connect to discuss enterprise UX, design systems, platform redesigns, and revenue-critical product work with hands-on execution.">
+  <meta name="author" content="Ramona Dsouza">
+  <meta name="keywords" content="contact, enterprise UX, product design, design systems, platform redesign, conversion optimization, technical UX, product strategy">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ramonadsouza.com/contact.html">
+  <link rel="icon" href="/icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+<header>
+  <nav id="site-nav" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
+</header>
+
+<!-- Main Content -->
+<main id="main-content" tabindex="-1">
+<!-- Contact Page -->
+<section class="py-4 py-lg-5">
+<div class="container">
+<div class="row align-items-start g-4 g-lg-5">
+
+<!-- Left: Hero / Context -->
+<div class="col-lg-5">
+<h1 class="hero-title mb-3">Need Help Applying What You Learned?</h1>
+
+<p class="hero-copy mb-0">
+If you've completed the course and want help applying it to a real project, I'm happy to connect. I work with clients who need support on complex, regulated, or revenue critical Drupal builds, whether that means architecture guidance, UX and conversion improvements, product direction, or hands on problem solving to get things unstuck.
+</p>
+<p class="fw-bold small">
+Consulting support is available by request and is priced separately based on complexity and scope.
+</p> 
+</div>
+
+<!-- Right: Form -->
+<div class="col-lg-7">
+<form action="https://formspree.io/f/mkoowqze" method="POST" class="border rounded-3 p-3 p-md-4 p-lg-4">
+
+  <div class="mb-3">
+    <label for="workEmail" class="form-label">Please enter a <span class="fw-bold">Work</span> Email</label>
+    <input
+      type="email"
+      class="form-control"
+      id="workEmail"
+      name="email"
+      placeholder="you@company.com"
+      required
+      pattern="^[^@]+@((?!gmail\.com|yahoo\.com|hotmail\.com|outlook\.com|icloud\.com).)+$"
+      title="Please use your company work email (no Gmail or personal email providers)."
+    >
+  </div>
+
+  <div class="mb-3">
+    <label for="inquiryType" class="form-label">What are you looking for?</label>
+    <select
+      class="form-select"
+      id="inquiryType"
+      name="inquiry_type"
+      required
+    >
+      <option value="" selected disabled>Select one</option>
+      <option>Product or platform redesign</option>
+      <option>Design systems</option>
+      <option>Conversion & optimization</option>
+      <option>Advisory or audit</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <div class="mb-4">
+    <label for="context" class="form-label">Context</label>
+    <textarea
+      class="form-control"
+      id="context"
+      name="context"
+      rows="5"
+      placeholder="Briefly describe your product, users, or the problem you are trying to solve."
+      required
+      minlength="30"
+    ></textarea>
+  </div>
+
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_redirect" value="https://ramonadsouza.com/thanks.html">
+
+  <button type="submit" class="btn btn-dark px-4">
+    Submit inquiry
+  </button>
+
+</form>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script>
+  Promise.all([
+    fetch('/includes/nav.html').then(r => r.ok ? r.text() : ''),
+    fetch('/includes/footer.html').then(r => r.ok ? r.text() : '')
+  ]).then(([navHtml, footerHtml]) => {
+    if (navHtml) document.getElementById('site-nav').innerHTML = navHtml;
+    if (footerHtml) document.getElementById('site-footer').innerHTML = footerHtml;
+  }).catch(() => {});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EMG2GNY3LE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EMG2GNY3LE');
+</script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drupal Course FAQ. Common Questions Answered</title>
+  <meta name="description" content="Frequently asked questions about the Drupal courses, who they are for, skill requirements, and what to expect from the training.">
+  <meta name="keywords" content="drupal course faq, drupal training questions, learn drupal faq, drupal beginner questions, drupal course support, drupal learning help">
+  <meta name="author" content="Ramona Dsouza"> 
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://beginlearningdrupal.com/drupal-tutorial-faq.html">
+  <link rel="icon" href="/icons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+<header>
+  <nav id="site-nav" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
+</header>
+
+<!-- Main Content -->
+<main id="main-content" tabindex="-1">
+
+<!-- Breadcrumb -->
+<div class="container py-1 small">
+  <a href="index.html" class="breadcrumb-item text-decoration-none">
+    <i class="bi bi-arrow-left"></i> Back
+  </a>
+  / <span class="text-secondary">Frequently Asked Questions</span>
+</div>
+
+<!-- Hero --> 
+<section class="py-3 py-lg-2">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-8">
+        <p class="section-label mb-0">Support</p>
+      
+      </div>
+        <h1 class="hero-title">Frequently asked questions</h1>
+        <p class="hero-copy pt-0 mt-0">
+        Common questions about the Drupal video courses, who they are designed for,and what you can expect from the learning experience.
+        </p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Accordion -->
+<section class="py-3 section-divider">
+  <div class="container">
+    <p class="section-label mb-4 ">Questions</p>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOneContent" aria-expanded="true" aria-controls="faqOneContent">
+            Why learn from this course?
+          </button>
+        </h2>
+        <div id="faqOneContent" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>
+              This is not just another online training resource.
+              People learning web technologies come from a wide range of backgrounds,
+              and most are not technical gurus who can simply figure everything out
+              by clicking around or reading developer documentation.
+            </p>
+            <p>
+              While programmers love to code, teaching is a different skill.
+              The goal of this course is to break down complex Drupal concepts
+              and explain them in plain English so that anyone can follow along.
+              The focus is on clarity, simplicity, and building real confidence
+              as you create your website.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwoContent" aria-expanded="false" aria-controls="faqTwoContent">
+            Is this course newbie-friendly?
+          </button>
+        </h2>
+        <div id="faqTwoContent" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>
+              Yes. The course is specifically designed for beginners.
+              Concepts are introduced gradually, with clear explanations
+              and practical examples that do not assume prior Drupal experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThreeContent" aria-expanded="false" aria-controls="faqThreeContent">
+            Do I need programming skills as a prerequisite?
+          </button>
+        </h2>
+        <div id="faqThreeContent" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            <p>
+              Any technical skills are helpful, but they are not required.
+              These videos are geared toward people who want to build
+              a Drupal website without needing to write code.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+
+
+<footer id="site-footer"></footer>
+<script>
+  Promise.all([
+    fetch('/includes/nav.html').then(r => r.ok ? r.text() : ''),
+    fetch('/includes/footer.html').then(r => r.ok ? r.text() : '')
+  ]).then(([navHtml, footerHtml]) => {
+    if (navHtml) document.getElementById('site-nav').innerHTML = navHtml;
+    if (footerHtml) document.getElementById('site-footer').innerHTML = footerHtml;
+  }).catch(() => {});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
